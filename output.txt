@@ -1,0 +1,4 @@
+total 1
+drwxr-xr-x 1 SKY 197121  0 May 23 21:41 intro_to_shell/
+-rw-r--r-- 1 SKY 197121  0 May 23 21:44 output.txt
+-rw-r--r-- 1 SKY 197121 19 May 23 21:42 README.md
