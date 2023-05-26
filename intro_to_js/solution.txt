@@ -1,0 +1,74 @@
+ANSWER TO QUESTION 1
+const: "const" is used to declare constants that have block scope. 
+Once a "const" variable is assigned to a value, it cannot be reassigned
+ or redeclared within the same scope. This makes const suitable for values 
+ that are intended to remain constant throughout the program.
+let: "let" provides block scope, meaning the variable is accessible only within 
+the block where it is defined (block refers to anything within curly braces {}). 
+Unlike "var", "let" does not allow redeclaration of the same variable within the same 
+scope, preventing accidental errors. Additionally, "let" variables can be reassigned.
+var: In older versions of JavaScript, var was the primary way to declare variables. 
+It has function scope, meaning the variable is accessible within the function where 
+it is defined. If "var" is declared outside of any function, it becomes a global variable 
+accessible throughout the entire script. The key characteristic of "var" is that it allows 
+variable redeclaration and can be reassigned.
+In summary, var has function scope, allows redeclaration, and can be reassigned.
+let has block scope, prevents redeclaration in the same scope, and can be reassigned.
+const has block scope, prevents reassignment and redeclaration in the same scope.
+
+ANSWER TO QUESTION 2
+Some of the ways we can use a variable after it has been defined are:
+(1) Assigning a value: You can assign a value to a variable using the assignment operator (=). 
+This can be a specific value, the result of an expression, or the return value of a function.
+(2) Performing operations: Variables can be used in mathematical or logical operations. You can 
+combine variables with operators to perform calculations or evaluate conditions.
+(3) Passing as arguments: Variables can be passed as arguments to functions. This allows you to 
+provide dynamic values to functions and perform operations based on the value of the variable.
+(4) Accessing properties or elements: If the variable is an object or an array, you can access 
+its properties or elements using dot notation (object.property) or bracket notation (array[index]).
+
+ANSWER TO QUESTION 3
+In JavaScript, you can declare a string by enclosing the desired sequence of characters within 
+single quotes (') or double quotes ("). Both single quotes and double quotes can be used 
+interchangeably to declare strings. Here are a few examples:
+{
+    let message1 = 'Hello, World!'; // Using single quotes
+    let message2 = "Welcome to JavaScript!"; // Using double quotes
+}
+
+ANSWER TO QUESTION 4
+Yes, in JavaScript, you can create strings using either single quotes (') or double quotes ("). 
+Both types of quotes can be used interchangeably to declare strings, and they have the same 
+effect. The choice between using single quotes or double quotes for strings is largely a matter 
+of personal preference or adherence to a specific coding style.
+
+ANSWER TO QUESTION 5
+"9" is a string and 
+9 is an integer or number.
+
+ANSWER TO QUESTION 6
+Declaration: Declaring a variable means introducing it to the JavaScript environment. It involves 
+using a keyword like var, let, or const followed by the variable name. For example:
+{
+    let age;
+}
+
+Redeclaration: Redeclaration refers to declaring a variable with the same name multiple times 
+within the same scope. Redeclaration is allowed when using the var keyword, but not when using 
+let or const. For example:
+{
+    var name = "John";
+    var name = "Jane"; // Redeclaration allowed with 'var'
+}
+
+Assignment: Assignment involves assigning a value to a declared variable. This can be done 
+using the assignment operator (=). For example:
+{
+    age = 25;
+}
+
+Reassignment: Reassignment refers to assigning a new value to an already declared variable. 
+This is commonly done when you want to update the value of a variable. For example:
+{
+    age = 30;
+}
