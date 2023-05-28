@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'inter';
+}
+
+.globe {
+    height: 30px;
+    width: 30px;
+    margin-right: 3px;
+}
+.header {
+    height: 60px;
+    display: flex;
+    background: #F55A5A;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #ffff;
+} 
+.text-header{
+    font-size: 20px;
+    color: #ffff;
+    letter-spacing: -0.075em;
+    font-family: 'inter';
+}
+.wrapper {
+    padding: 3% 15%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 4fr 8fr ;
+    grid-gap: 25px;
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-auto-rows: minmax(100px, auto);
+}
+.inside-boxes {
+    object-fit: fill;
+    min-height: 1px;
+    max-height: 270px;
+}
+.tourImage {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+hr{
+    margin: 7% 0;
+}
+.location-title{
+    padding-top: 8px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 10px;
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.locate-icon {
+    height: 20px;
+}
+.country {
+    font-size: 25px;
+    color: #2B283A ;
+    margin-left: 5px;
+}
+.link {
+    color: #918E9B;
+    font-size: 20px;
+}
+.dates {
+    font-size: 15px;
+}
+.cities {
+    color: #2B283A;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.description {
+    color: #2B283A;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+@media (min-width: 510px) and (max-width: 883px) {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box ;
+    }
+    .globe {
+        height: 30px;
+        width: 30px;
+        margin-right: 3px;
+    }
+
+    .header {
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+    } 
+    .text-header{
+        font-size: 20px;
+        color: #ffff;
+        letter-spacing: -0.075em;
+        font-family: 'inter';
+    }
+    .wrapper {
+        padding: 10%;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 4fr 8fr ;
+        grid-gap: 15px;
+        /* grid-template-rows: repeat(2, 1fr); */
+        grid-auto-rows: minmax(100px, auto);
+    }
+    .inside-boxes {
+        object-fit: fill;
+        min-height: 150px;
+    }
+    .tourImage {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+    hr{
+        margin: 7% 0;
+    }
+    .location-title{
+        padding-top: 8px;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        gap: 10px;
+    }
+    .icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .locate-icon {
+        height: 20px;
+    }
+    .country {
+        font-size: 16px;
+        color: #2B283A ;
+        margin-left: 5px;
+    }
+    .link {
+        color: #918E9B;
+        font-size: 16px;
+    }
+    .dates {
+        font-size: 13px;
+    }
+    .cities {
+        color: #2B283A;
+        font-size: 25px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    .description {
+        color: #2B283A;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 518px) {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box ;
+    }
+    .globe {
+        height: 30px;
+        width: 30px;
+    }
+
+    .header {
+        height: 60px;
+        display: flex;
+        background: #F55A5A;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        color: #ffff;
+    } 
+    .text-header{
+        font-size: 13px;
+        color: #ffff;
+        letter-spacing: -0.075em;
+        font-family: 'Inter';
+        line-height: 18px;
+    }
+    .wrapper {
+        padding: 10% 7%;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-gap: 10px; */
+        /* grid-template-rows: repeat(2, 1fr); */
+        grid-auto-rows: minmax(100px, auto);
+        margin-bottom: 5px;
+    }
+    .inside-boxes {
+        object-fit: fill;
+        height: 200px;
+    }
+    .tourImage {
+        height: 100%;
+        width: 100%;
+        /* object-fit: fill; */
+    }
+    hr{
+        margin: 7% 0;
+    }
+    .location-title{
+        padding-top: 8px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+    }
+    .locate-icon {
+        height: 20px;
+    }
+    .country {
+        font-size: 20px;
+        color: #2B283A ;
+    }
+    .link {
+        color: #918E9B;
+        font-size: 15px;
+    }
+    .dates {
+        font-size: 13px;
+    }
+    .cities {
+        color: #2B283A;
+        font-size: 25px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    .description {
+        color: #2B283A;
+        margin-top: 10px;
+    }
+    
+}
